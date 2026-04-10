@@ -5,6 +5,18 @@
     },
     "records": {
         "A": ["216.198.79.1"]
-        "TXT": ["apple-domain=8ou55WKw2F11QCqf"]
+        "TXT": [
+            "apple-domain=8ou55WKw2F11QCqf",
+            "v=spf1 include:icloud.com ~all"
+        ],
+        "MX": [
+            {
+                "target": "mx01.mail.icloud.com."
+                "priority" 10
+            },
+            {
+                "target": "mx02.mail.icloud.com."
+                "priority" 10
+            }
     }
 }
